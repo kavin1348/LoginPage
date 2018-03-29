@@ -1,0 +1,4 @@
+
+For this challenge, I have automated the acceptance tests for login page. 
+The tests are written as Specflow scenarios, implemented using C# and powered by Selenium and Nunit. 
+The advantage of this approach is that, easy to implement, Human readable test scripts, 
