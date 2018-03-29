@@ -1,4 +1,12 @@
-
 For this challenge, I have automated the acceptance tests for login page. 
-The tests are written as Specflow scenarios, implemented using C# and powered by Selenium and Nunit. 
-The advantage of this approach is that, easy to implement, Human readable test scripts, 
+The tests are written as Specflow scenarios, implemented using C# and powered by Selenium & Nunit. 
+I have used "Page Object" design pattern to decouple the page elements, which are prone to changes. 
+
+To run the test, please follow the below instructions:
+  i. clone the repository to your local,
+  ii. Open the solution with Visual Studio
+  iii. Add Specflow, Selenium and Nunit extensions 
+  iv. Build the solution 
+  v. Run the tests from Test Explorer 
+
+Note: You will notice that 2 tests are failing because of the invalid login credentials. Please update the scenario with proper credentials. 
